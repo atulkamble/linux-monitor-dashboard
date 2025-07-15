@@ -16,6 +16,30 @@ linux-monitor-dashboard/
 ├── .gitignore
 └── README.md
 ```
+// ec2
+```
+sudo yum install python -y
+sudo yum install python3-tkinter
+python3 --version
+sudo yum install pip -y
+sudo pip install flask 
+```
+// ubuntu
+```
+sudo apt install git -y
+sudo apt install python -y 
+sudo apt install python3-tk
+sudo apt install python3-pip 
+sudo apt install python3-venv -y  
+python3 -m venv flaskenv
+source flaskenv/bin/activate
+
+pip3 install flask
+pip install -r requirements.txt
+
+git clone https://github.com/atulkamble/linux-monitor-dashboard.git
+cd linux-monitor-dashboard
+```
 
 ---
 
